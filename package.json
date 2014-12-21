@@ -1,0 +1,31 @@
+{
+  "name": "htmlapper",
+  "version": "1.0.0",
+  "description": "HTML to Mobile App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chetan <chetan.kantharia@gmail.com>",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "cssify",
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "blueimp-file-upload": "^9.8.1",
+    "body-parser": "^1.0.1",
+    "browserify": "^6.3.3",
+    "cors": "^2.5.2",
+    "cssify": "^0.6.0",
+    "express": "^4.10.4",
+    "jquery": "^2.1.1",
+    "jsx": "^0.9.89",
+    "multer": "^0.1.6",
+    "react": "^0.12.1",
+    "reactify": "^0.17.1"
+  }
+}
