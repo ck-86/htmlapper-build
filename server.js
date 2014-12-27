@@ -44,7 +44,7 @@ app.post('/upload', function(req, res) {
     if (data) {
         // this will execute 
         // statements in shell.js
-        shell.execute();
+        shell.execute(data);
     }
 
     res.send(req.files);
